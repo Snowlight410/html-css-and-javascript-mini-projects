@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color:rgb(37, 35, 35);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav > ul{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+nav ul li,nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:gray;
+    transition: color 0.5s ease-in-out;
+}
+.header >div{
+    display: flex;
+    align-items: center;
+}
+.header > div >span{
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.header > div >img{ 
+       height: 40px;
+       width: 40px;
+       border-radius: 50px;
+}
+@media screen and (max-width:600px) {
+    .header{
+        flex-direction: column;
+    }
+}
+/* //hero section */
+
+#main-section{
+    background-image:url('./public/bg.jpg');
+    background-position: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main-section >div{
+    background-color: rgba(0, 0, 0, 0.541);
+    max-width: 100%;
+    height: inherit;
+}
+.secter{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.secter h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+.secter p{
+    color: white;
+    margin-top: 1rem;    
+}
+
+/* //service section */
+#service{
+    height: 60px;
+    margin-top: 2rem;
+    height: 50vh;
+}
+#service h2{
+font-size: 1.5rem;
+text-align: center;
+font-weight: 800;
+margin-top: 1rem;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.innercontainer{
+    background-color: rgba(122, 116, 116, 0.158);
+    padding: 2rem;
+    margin-top: 1rem;
+    width: 28%;
+    border-radius: 10px;
+    line-height: 3rem;
+    box-shadow: 4px 4px 20px 1px rgb(196, 196, 196),-4px -4px 30px 1px rgb(194, 194, 194);
+}
+.innercontainer > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 0.5rem auto;
+    display: block;
+}
+.innercontainer h4{
+    text-align: center;
+    word-wrap: break-word;
+}
+.innercontainer p{
+    line-height: normal;
+    text-align: center;
+    word-wrap: break-word;
+}
+@media screen and (max-width:750px) {
+    #service{
+        height: 138vh;
+    }
+    #service >.container{
+        flex-direction: column;
+    }
+    #service >.container .innercontainer{
+        width: 90%;
+    }
+}
+/* about section */
+#about{
+    height: 70vh;
+}
+#about >.container{
+justify-content: center;
+gap: 10px;
+}
+#about>.container >.innercontainer{
+    width: 45%;
+    height: 50vh;
+}
+#about h2{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+#about > .container >.innercontainer h4,p{
+    text-align: center;
+}
+
+#about>.container > .innercontainer:nth-child(1){
+    background-image:url('./public/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-icons{
+    width: 40px;
+    height: 40px;
+}
+@media screen and (max-width:750px) {
+    #about{
+        height: 120vh;
+    }
+    #about >.container{
+        flex-direction: column;
+    }
+    #about >.container .innercontainer{
+        width: 90%;
+    }
+}
+/* client section */
+#client{
+    height: 40vh;
+    margin-top: 2rem;
+}
+#client h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#client>.container{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+#client > .container > .innercontainer{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+@media screen and (max-width:500px) {
+    #client >.container>{
+        flex-direction: column;
+    }
+}
+/* footer section */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color:rgb(26, 25, 25); 
+       height: 80px;
+}
+.footer span, .footer a{
+    color: white;
+}
