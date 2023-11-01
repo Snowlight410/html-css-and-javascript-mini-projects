@@ -1,3 +1,1 @@
-This is dummy project
-"# html-css-and-javascript-mini-projects" 
-"# html-css-and-javascript-mini-projects" 
+1 first project is food website service
