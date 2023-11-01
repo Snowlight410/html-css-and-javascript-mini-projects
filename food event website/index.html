@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Party Event</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .img1{
+            width: 400px;
+            height: 350px;
+        }
+        .img2{
+            width: 400px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-gray-800   pb-5 text-center">
+   <div class="relative">
+        <img src="https://source.unsplash.com/500x400/?Food" alt="Background Image" class="object-cover w-full h-64 md:h-96 lg:h-128">
+        <div class="absolute top-0 left-0 w-full h-full bg-black opacity-70 flex items-center justify-center">
+            <div class="text-center text-white">
+        <h1 class="text-3xl md:text-4xl text-white lg:text-5xl font-bold mb-2 text-center">Food Party Extravaganza</h1>
+        <p class="text-lg md:text-xl lg:text-2xl text-center mb-4">Dec 10 - Jan 1, 2024</p>
+        <p class="text-sm md:text-base lg:text-lg text-center mb-6">
+            Join us for a delectable food party event like no other, where flavors, fun, and festivities unite. Savor a diverse range of mouthwatering dishes served by top-notch food vendors from around the world. Experience gastronomic delights, live entertainment, and a vibrant ambiance that will tantalize your taste buds and elevate your spirits.
+        </p>
+            </div>
+        </div>
+    </div>
+    </div>
+        <nav class="mt-6">
+            <ul class="flex justify-center text-white space-x-4">
+                <li><a href="#home" class=" font-bold">Home</a></li>
+                <li><a href="#about" class=" font-bold">About</a></li>
+                <li><a href="#schedule" class=" font-bold">Event Schedule</a></li>
+                <li><a href="#register-now" class=" font-bold">Participate/Registration</a></li>
+                <li><a href="#entertainment" class=" font-bold">Entertainment</a></li>
+                <li><a href="#faqs" class=" font-bold">FAQs</a></li>
+                <li><a href="#contact" class=" font-bold">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="text-gray-600 body-font " id="home">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 "> A Culinary 
+              <br class="hidden lg:inline-block">Extravaganza for Foodies of All Tastes
+            </h1>
+            <p class="mb-8 leading-relaxed">Indulge in a gastronomic journey showcasing delectable cuisines, live cooking demonstrations, and interactive experiences at our culinary celebration—a paradise for food enthusiasts.</p>
+            <div class="flex justify-center">
+              <button  class="inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                <a href="#register-now">Register Now</a>
+              </button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full  md:w-1/2 w-5/6">
+            <img class="object-cover object-center  rounded img1" alt="hero" src="https://source.unsplash.com/500x400/?Food,desert">
+          </div>
+        </div>
+      </main>
+      <section class="bg-gray-100 py-10" id="schedule">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">Event Schedule</h2>
+            <!-- Event Day 1 -->
+            <div class="mb-8">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4">Day 1: Friday, August 30</h3>
+                <div class="grid gap-4 md:grid-cols-2">
+                    <!-- Event 1 -->
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h4 class="text-xl font-bold mb-2">Morning Tasting Session</h4>
+                        <p class="text-gray-600 mb-4">10:00 AM - 12:00 PM</p>
+                        <p>Join us for a delightful morning of tasting various cuisines from around the world. Experience an explosion of flavors and indulge your taste buds!</p>
+                    </div>
+                    <!-- Event 2 -->
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h4 class="text-xl font-bold mb-2">Chef Cooking Demo</h4>
+                        <p class="text-gray-600 mb-4">2:00 PM - 4:00 PM</p>
+                        <p>Watch top chefs showcase their culinary skills as they prepare mouthwatering dishes right before your eyes. Learn some kitchen secrets and get inspired!</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Event Day 2 -->
+            <div class="mb-8">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4">Day 2: Saturday, August 31</h3>
+                <div class="grid gap-4 md:grid-cols-2">
+                    <!-- Event 3 -->
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h4 class="text-xl font-bold mb-2">Food Photography Workshop</h4>
+                        <p class="text-gray-600 mb-4">11:00 AM - 1:00 PM</p>
+                        <p>Calling all foodies and aspiring photographers! Learn the art of capturing delectable dishes through your camera lens. Don't forget to bring your cameras!</p>
+                    </div>
+                    <!-- Event 4 -->
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h4 class="text-xl font-bold mb-2">Global Street Food Fair</h4>
+                        <p class="text-gray-600 mb-4">5:00 PM - 9:00 PM</p>
+                        <p>Embark on a flavorful journey around the world with our Global Street Food Fair. Try unique street food creations from various countries!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="bg-gray-100 py-10" id="entertainment">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">Entertainment</h2>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Entertainment 1 -->
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Live Music Performances</h3>
+                    <p class="text-gray-600 mb-4">Stage 1 - 7:00 PM to 10:00 PM</p>
+                    <p class="">Get ready to groove to the beats of talented musicians as they set the stage on fire with live music performances throughout the evening.</p>
+                </div>
+                <!-- Entertainment 2 -->
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Comedy Hour</h3>
+                    <p class="text-gray-600 mb-4">Stage 2 - 5:30 PM to 6:30 PM</p>
+                    <p class="">Laugh out loud with hilarious comedians who will tickle your funny bone and keep you entertained during our special comedy hour.</p>
+                </div>
+                <!-- Entertainment 3 -->
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Cultural Dance Performances</h3>
+                    <p class="text-gray-600 mb-4">Stage 3 - 3:00 PM to 4:30 PM</p>
+                    <p class="">Experience the beauty of diverse cultures through captivating dance performances that will mesmerize and captivate your senses.</p>
+                </div>
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Cultural Dance Performances</h3>
+                    <p class="text-gray-600 mb-4">Stage 3 - 3:00 PM to 4:30 PM</p>
+                    <p class="">Experience the beauty of diverse cultures through captivating dance performances that will mesmerize and captivate your senses.</p>
+                </div>
+                <!-- Add more entertainment options as needed -->
+            </div>
+        </div>
+    </section>
+    <!-- FAQs Section -->
+    <section class="py-10" id="faqs">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">FAQs</h2>
+            <div class="grid gap-4">
+                <!-- FAQ 1 -->
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">What are the event timings?</h3>
+                    <p class="">The event starts at 10:00 AM and goes on until 10:00 PM for two consecutive days - August 30 and August 31.</p>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Are pets allowed at the event?</h3>
+                    <p class="">As much as we love pets, only service animals are allowed at the food party event. Please ensure their safety and comfort during the visit.</p>
+                </div>
+                <!-- FAQ 3 -->
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Are pets allowed at the event?</h3>
+                    <p class="">As much as we love pets, only service animals are allowed at the food party event. Please ensure their safety and comfort during the visit.</p>
+                </div>
+                <!-- FAQ 4 -->
+                <div class="bg-white rounded-lg p-4 shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Are pets allowed at the event?</h3>
+                    <p class="">As much as we love pets, only service animals are allowed at the food party event. Please ensure their safety and comfort during the visit.</p>
+                </div>
+                <!-- Add more FAQs as needed -->
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-100 py-10" id="about">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">About</h2>
+            <div class="flex flex-col justify-evenly gap-4 md:flex-row">
+                <!-- About Image -->
+                <div class=" ">
+                    <img src="https://source.unsplash.com/500x400/?Food" alt="About Food Party Event" class="h-[8rem] img2 rounded-lg shadow-md">
+                </div>
+                <!-- About Content -->
+                <div class="md:w-1/2">
+                    <p class=" text-lg  mb-4">
+                        Welcome to the ultimate culinary experience - Food Party Extravaganza! We're thrilled to invite you to a gastronomic journey like no other. 
+                    </p>
+                    <p class=" text-lg mb-4">
+                        At Food Party, we believe that food has the power to bring people together, transcend cultural boundaries, and create unforgettable memories. Our team of passionate food enthusiasts has curated a diverse selection of the finest food vendors from across the globe to serve you an array of delectable dishes that will delight your taste buds.
+                    </p>
+                    <p class=" text-lg  mb-4">
+                        Whether you're a dedicated foodie or simply enjoy exploring new flavors, our event promises something for everyone. From gourmet burgers to exotic desserts, sizzling skewers to mouthwatering pizzas, our food vendors have it all.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Us Section -->
+    <section class="bg-gradient-to-b from-gray-300 via-gray-200 to-gray-300 py-10" id="contact">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-gray-800">Get In Touch</h2>
+            <div class="grid gap-6 md:grid-cols-2">
+                <!-- Contact Info 1 -->
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <h3 class="text-lg md:text-xl font-semibold mb-3 text-gray-700">General Inquiries</h3>
+                    <p class="text-gray-600">Email: info@foodpartyevent.com</p>
+                    <p class="text-gray-600">Phone: +1 (555) 123-4567</p>
+                </div>
+                <!-- Contact Info 2 -->
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <h3 class="text-lg md:text-xl font-semibold mb-3 text-gray-700">Event Tickets Support</h3>
+                    <p class="text-gray-600">Email: tickets@foodpartyevent.com</p>
+                    <p class="text-gray-600">Phone: +1 (555) 987-6543</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="register-now" class="bg-gray-100 py-10">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8">Register Now</h2>
+            <div class="max-w-md mx-auto bg-white rounded-lg p-6 shadow-md">
+                <form id="registrationForm">
+                    <div class="mb-4">
+                        <label for="name" class="block font-bold mb-2">Full Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-orange-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block font-bold mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-orange-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="tickets" class="block font-bold mb-2">Number of Tickets</label>
+                        <input type="number" id="tickets" name="tickets" min="1" class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-orange-500" required>
+                    </div>
+                    <div class="text-center">
+                        <button id="registerNow" type="submit" class="bg-gray-800 text-white px-6 py-3 font-bold rounded">Register</button>
+                    </div>
+                </form>
+                
+             
+                
+            </div>
+        </div>
+    </section>
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const tickets = document.getElementById('tickets').value;
+    
+            if (name === '' || email === '' || tickets === '') {
+                event.preventDefault();
+                alert('Please fill in all fields before submitting.');
+                return
+            }
+            alert("thank for registeration")
+
+        });
+        </script>
+</body>
+</html>
