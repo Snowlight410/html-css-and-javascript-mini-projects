@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .heading-text{
+    text-align: center;
+    font-weight:bold;
+    margin-top: 2rem; 
+    -webkit-text-stroke-width: 0000.1rem;
+    -webkit-text-stroke-color: #474747;
+  }
+  .generate-meal-btn{
+    background-color:#020003;
+    color:white;
+    padding: 1rem 2rem;
+    display: block;
+    margin:1rem auto;
+    border: none;
+    border-radius: 4px;
+  }
+  .div-container{
+    width: 100%;
+    min-height: 50vh;
+    display:flex;
+    justify-content: space-evenly;
+    gap:2rem;
+    line-height: 30px;
+    padding: 3rem;
+  }
+  .div-container div{
+    padding-left:1rem;
+  }
+  .h4-text span , .ingre span{
+    font-weight: lighter;
+  }
+  .generate-img{
+    width:400px;
+    object-fit: cover;
+    height:400px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .inde{
+    list-style: none;
+    font-weight: lighter;
+  }
+  .light{
+    font-weight: 200;
+  }
+  @media only screen and (max-width: 900px) {
+    .div-container {
+        flex-direction: column; /* Reset to row layout for larger screens */
+        gap: 2rem;
+    }
+    .heading-text{
+      text-align: center;
+    }
+    .div-container div {
+        padding-left: 1rem; /* Restore padding for inner divs */
+    }
+    .imgpra{
+      text-align: center;
+      width: 100%;
+    }
+    .generate-img {
+        width: 100%; /* Adjust image width for larger screens */
+        height: 100%;
+    }
+    .videoWrapper{
+      text-align: center;
+      margin-top: 2rem;
+      width: 100%;
+    }
+    .ifra{
+      width: 100%;
+      height: 50vh;
+    }
+   
+
+  }
